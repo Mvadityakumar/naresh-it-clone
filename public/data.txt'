@@ -1,0 +1,133 @@
+  const slidedata=[
+    {img:'images/data sci.png',
+        name:'Full Stack Data Science & AI',
+        date:'1 July 2024',
+        by:'Mr.Daniel',
+        duration:'5 Months'
+
+    },
+    {img:'images/Java.png',
+        name:'Full Stack Java',
+        date:'10 July 2024',
+        by:'Mr.Hari Krishna',
+        duration:'6 Months'
+
+    },
+    {img:'images/multi-cloud-online-training-nareshit.png',
+        name:'Multi Cloud',
+        date:'27 July 2024',
+        by:'Mr. Santhos',
+        duration:'60 Days'
+
+    },
+    {img:'images/python.png',
+        name:'Full Stack Python',
+        date:'1 July 2024',
+        by:'Mr. K V Rao',
+        duration:'5 Months'
+
+    },
+    {img:'images/c-language-online-training-nareshit.png',
+        name:'C Language',
+        date:'22 July 2024',
+        by:'Mr. Srikanth',
+        duration:'60 Days'
+
+    },{img:'images/software-testing-online-training-nareshit.png',
+        name:'Selenium',
+        date:'30 July 2024',
+        by:'Mr. Vijay',
+        duration:'90 Days'
+
+    },{img:'images/digital-marketing-online-training-nareshit.png',
+        name:'Digital Marketing',
+        date:'1 July 2024',
+        by:'Mr. K V Rao',
+        duration:'5 Months'
+
+    },
+    {img:'images/ms-azure-and-devops-online-training-nareshit.png',
+        name:'MS Azure DevOps Online Training',
+        date:'1 July 2024',
+        by:'Mr. K V Rao',
+        duration:'3 Months'
+
+    },
+    {img:'images/power-bi-online-training-nareshit.png',
+        name:'Power BI',
+        date:'12 July 2024',
+        by:'Miss Mohana',
+        duration:'3 Months'
+
+    }
+
+    
+  ]
+
+
+
+  import "./slidecards.css";
+
+import ds from "../../images/data sci.png";
+import fs from "../../images/Java.png";
+import c from "../../images/c-language-online-training-nareshit.png";
+import dm from "../../images/digital-marketing-online-training-nareshit.png";
+import mc from "../../images/multi-cloud-online-training-nareshit.png";
+import ms from "../../images/ms-azure-and-devops-online-training-nareshit.png";
+import fp from "../../images/python (1).png";
+import pb from "../../images/power-bi-online-training-nareshit.png";
+import s from "../../images/software-testing-online-training-nareshit.png";
+
+
+
+<span className="bi bi-star-fill"></span>
+            <span className="bi bi-star-fill"></span>
+            <span className="bi bi-star-fill"></span>
+            <span className="bi bi-star-fill"></span>
+            <span className="bi bi-star-fill"> 5</span>
+
+
+
+
+
+
+            <div className="slider-container-time">
+            <span className="bi bi-clock"> Start Date: 1 July 2024</span><br />
+            <span  className="bi bi-person"> by: Mr.Daniel</span><br />
+            <span className="bi bi-clock"> Duration: 5 Months</span>
+          </div>
+          <div className="slider-container-button">
+            <button>ENROLL</button>
+            <button className="bi bi-share">SHARE</button>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div className="slide-card-main">
+              <div className="slide-card-img">
+                <img src={data.img} alt="" width="100%" />
+              </div>
+              <div className="slide-card-name">
+                <h3>{data.name}</h3>
+                <span className="bi bi-star-fill"></span>
+                <span className="bi bi-star-fill"></span>
+                <span className="bi bi-star-fill"></span>
+                <span className="bi bi-star-fill"></span>
+                <span className="bi bi-star-fill"> </span>5
+              </div>
+              <div className="slide-card-time">
+                <span className="bi bi-clock"> Start: {data.date}</span>
+                <br />
+                <span className="bi bi-person"> by: {data.by}</span>
+                <br />
+                <span className="bi bi-clock"> Duration: {data.duration}</span>
+              </div>
+              <div className="slide-card-button">
+                <button>ENROLL</button>
+                <button className="bi bi-share"> SHARE</button>
+              </div>
+            </div>

@@ -1,0 +1,34 @@
+.headertop-main-ul li{
+    list-style: none;
+    
+    
+}
+
+.headertop-main-ul a{
+    text-decoration: none;
+    color: rgb(182, 189, 197);
+    border-right: 2px solid rgba(128, 128, 128, 0.279);  
+    padding-right:6px ;
+    padding-left: 6px; 
+
+}
+
+.headertop-main-ul a{
+    text-decoration: solid;
+}
+
+
+.headertop-main{
+    background-color: black;
+    
+    
+}
+
+.headertop-main-ul{
+    display: flex;
+    justify-content: end;
+    padding: 6px;
+    flex-wrap: wrap;
+     
+}
+

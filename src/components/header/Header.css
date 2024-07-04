@@ -1,0 +1,71 @@
+.headerform-div input{
+    border: 1px rgba(128, 128, 128, 0.382) solid;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 8px;
+    outline: none;
+    width: 400px;
+
+ 
+}
+
+.headerform-div button{
+    
+    background: linear-gradient(rgb(199, 12, 77),rgb(212, 140, 15));
+    color: aliceblue;
+    border: 1px rgba(128, 128, 128, 0.382) solid;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 8px;
+    width: 50px;
+
+}
+
+.header-one{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header-two ul li{
+    list-style: none;
+
+
+}
+
+.header-two ul li a{
+    color: black;
+}
+
+.header-two ul li select{
+    border: none;
+    outline: none;
+    width: 120px;
+    appearance: none;
+
+    
+}
+
+.header-two ul li select option{
+    
+   
+}
+
+.header-two ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+
+.header{
+    display: flex;
+  
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}

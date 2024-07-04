@@ -1,0 +1,56 @@
+.courses-head h1 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.courses-head h1 span {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f32170, #ff6b08,  #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.courses-head p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.courses-navbar{
+    margin-left: 90px;
+    border-bottom: 1px gray solid;
+
+    margin-bottom: 50px;
+        
+    width: 1350px;
+   
+
+   
+}
+.courses-navbar ul{
+    display: flex ;
+    gap: 40px;
+    justify-content: left;
+    
+    
+    
+}
+.courses-navbar ul li{
+    list-style: none;
+    
+   
+   
+}
+
+.courses-navbar ul li a{
+   
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    
+   text-decoration-line: none;
+
+}
+
+.courses-navbar ul li a:focus{
+    color: rgb(49, 148, 198);
+    text-decoration: underline !important;
+    
+    
+}
